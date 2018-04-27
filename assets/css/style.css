@@ -1,0 +1,201 @@
+.player-character-selection, .computer-character-selection {
+	display: flex;
+	flex-wrap: wrap;
+	width: 700px;
+	margin: auto;
+	text-align: center;
+}
+
+.play-win-lose {
+	background-image: url('../images/yoda.png');
+	width: 990px;
+	height: 600px;
+	margin: auto;
+	position: relative;
+}
+
+.show-player-character-block {
+	display: flex;
+	position: absolute;
+	bottom: 100px;
+	left: 100px;
+	flex-wrap: wrap;
+	width: 400px;
+}
+
+.show-computer-character-block {
+	display: flex;
+	position: absolute;
+	top: 300px;
+	right: 100px;
+	flex-wrap: wrap;
+	width: 600px;
+}
+
+.show-computer-character-selection {
+	display: flex;
+	flex-wrap: wrap;
+	width: 700px;
+	margin: auto;
+	text-align: center;
+	justify-content: center;
+}
+
+.show-select-computer {
+	display: flex;
+	width: 700px;
+	margin: auto;
+	text-align: center;
+}
+
+.show-player-stats {
+	display: block;
+	position: absolute;
+	bottom: 150px;
+	left: 500px;
+}
+
+.show-computer-stats {
+	display: block;
+	position: absolute;
+	top: 400px;
+	right: 750px;
+}
+
+.show-attack-button {
+	display: block;
+	position: absolute;
+	top: 600px;
+	left: 200px;
+	font-size: 30px;
+	border: 1px red solid;
+	background: black;
+	border-radius: 5px;
+	width: 200px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	opacity: .7;
+	cursor: pointer;
+}
+
+.show-start-button {
+	display: block;
+	position: relative;
+	bottom: -460px;
+	left: 200px;
+	font-size: 30px;
+	background: black;
+	border: red 1px solid;
+	border-radius: 5px;
+	opacity: .7;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	width: 200px;
+	cursor: pointer;
+}
+
+.show-start-text {
+	display: block;
+	position: relative;
+	bottom: -100px;
+	left: 200px;
+	font-size: 30px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	width: 200px;
+}
+
+.show-win-text {
+	display: block;
+	position: relative;
+	bottom: -100px;
+	left: 200px;
+	font-size: 30px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	width: 200px;
+}
+
+.show-lose-text {
+	display: block;
+	position: relative;
+	bottom: -100px;
+	left: 200px;
+	font-size: 30px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	width: 200px;
+}
+
+#name, #hp, #attack, #computerName, #computerHp, #counterattack {
+	font-size: 36px;
+}
+
+#title {
+	margin: auto;
+	width: 800px;
+}
+
+#title-image {
+	width: 800px;
+}
+
+#jarjar, #jarjar2 {
+	background-image: url('../images/jar-jar.png');
+	
+}
+
+#porg, #porg2 {
+	background-image: url('../images/porg.png');
+}
+
+#thalasirens, #thalasirens2 {
+	background-image: url('../images/thala-sirens.png');
+}
+
+#wicket, #wicket2 {
+	background-image: url('../images/wicket.png');
+}
+
+#jarjar, #porg, #thalasirens, #wicket {
+	width: 300px;
+	height: 300px;
+	margin: 25px;
+}
+
+#jarjar2, #porg2, #thalasirens2, #wicket2 {
+	width: 600px;
+	height: 600px;
+	background-size: 600px;
+}
+
+body {
+	background-image: url('../images/bg.jpg');
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: flex;
+}
+
+h1 {
+	color: white;
+	font-size: 75px;
+}
+
+h2 {
+	color: white;
+	font-size: 40px;
+}
+
+div {
+	color: white;
+}
