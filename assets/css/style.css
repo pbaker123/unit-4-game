@@ -65,7 +65,7 @@
 .show-attack-button {
 	display: block;
 	position: absolute;
-	top: 600px;
+	top: 200px;
 	left: 200px;
 	font-size: 30px;
 	border: 1px red solid;
